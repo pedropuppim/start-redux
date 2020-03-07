@@ -42,11 +42,10 @@ export default function course(state=INITIAL_STATE, action){
                 {id: 6, title: 'Aula 2'}
             ]
         };
-
+        
         return {
             ...state,
-            modules: [new_module]
-            
+            modules: [...state.modules, new_module]
         }
     }
 
