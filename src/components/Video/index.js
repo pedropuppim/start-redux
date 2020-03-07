@@ -5,7 +5,7 @@ import {connect} from 'react-redux';
 const Video = ({activeModule, activeLesson}) => (
 
     <div>
-        <strong>Modulo {activeModule.title}</strong>
+        <strong>Modulo {activeModule.title}</strong><br />
         <span>Aula {activeLesson.title}</span>
     </div>
 );
